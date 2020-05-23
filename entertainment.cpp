@@ -6,4 +6,7 @@
 //  Copyright © 2020 Anisha Nahta. All rights reserved.
 //
 
-#include "entertainment.hpp"
+#include <iostream>
+#include <cmath>
+#include <string>
+using namespace std;

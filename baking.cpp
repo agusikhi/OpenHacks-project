@@ -6,4 +6,8 @@
 //  Copyright © 2020 Anisha Nahta. All rights reserved.
 //
 
-#include "baking.hpp"
+#include <iostream>
+#include <cmath>
+#include <string>
+using namespace std;
+
