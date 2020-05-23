@@ -8,10 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D854C3F32479AA9500937B68 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D854C3EF2479AA9500937B68 /* main.cpp */; };
-		D854C3F42479AA9500937B68 /* baking.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D854C3F02479AA9500937B68 /* baking.cpp */; };
-		D854C3F52479AA9500937B68 /* quiz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D854C3F12479AA9500937B68 /* quiz.cpp */; };
-		D854C3F62479AA9500937B68 /* entertainment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D854C3F22479AA9500937B68 /* entertainment.cpp */; };
-		D854C40D2479D7CA00937B68 /* nature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D854C40C2479D7CA00937B68 /* nature.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -172,11 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D854C40D2479D7CA00937B68 /* nature.cpp in Sources */,
-				D854C3F62479AA9500937B68 /* entertainment.cpp in Sources */,
 				D854C3F32479AA9500937B68 /* main.cpp in Sources */,
-				D854C3F42479AA9500937B68 /* baking.cpp in Sources */,
-				D854C3F52479AA9500937B68 /* quiz.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

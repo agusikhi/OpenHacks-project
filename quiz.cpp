@@ -11,9 +11,6 @@
 #include <string>
 using namespace std;
 
-void make_quiz() {
-    
-}
 
 int entertainment_count() {
     int num = 0;
@@ -44,4 +41,9 @@ void pick_activity() {
         
     }
     
+}
+
+void make_quiz() {
+    cout << "Welcome to the quarantine activity picker!" << endl;
+    pick_activity();
 }
