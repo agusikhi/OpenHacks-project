@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D854C3F32479AA9500937B68 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D854C3EF2479AA9500937B68 /* main.cpp */; };
+		D854C3F42479AA9500937B68 /* baking.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D854C3F02479AA9500937B68 /* baking.cpp */; };
+		D854C3F52479AA9500937B68 /* quiz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D854C3F12479AA9500937B68 /* quiz.cpp */; };
+		D854C3F62479AA9500937B68 /* entertainment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D854C3F22479AA9500937B68 /* entertainment.cpp */; };
+		D854C40D2479D7CA00937B68 /* nature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D854C40C2479D7CA00937B68 /* nature.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D854C3E32479AA7C00937B68 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D854C3E52479AA7C00937B68 /* openHacks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = openHacks; sourceTree = BUILT_PRODUCTS_DIR; };
+		D854C3EF2479AA9500937B68 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../main.cpp; sourceTree = "<group>"; };
+		D854C3F02479AA9500937B68 /* baking.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = baking.cpp; path = ../../baking.cpp; sourceTree = "<group>"; };
+		D854C3F12479AA9500937B68 /* quiz.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = quiz.cpp; path = ../../quiz.cpp; sourceTree = "<group>"; };
+		D854C3F22479AA9500937B68 /* entertainment.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = entertainment.cpp; path = ../../entertainment.cpp; sourceTree = "<group>"; };
+		D854C3F72479AFE800937B68 /* netflix_actionadventure_tv.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = netflix_actionadventure_tv.txt; sourceTree = "<group>"; };
+		D854C3F82479B86800937B68 /* netflix_comedy_tv.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = netflix_comedy_tv.txt; sourceTree = "<group>"; };
+		D854C3F92479B95400937B68 /* netflix_documentary_tv.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = netflix_documentary_tv.txt; sourceTree = "<group>"; };
+		D854C3FA2479B9D500937B68 /* netflix_drama_tv.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = netflix_drama_tv.txt; sourceTree = "<group>"; };
+		D854C3FB2479BA6100937B68 /* netflix_mystery_tv.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = netflix_mystery_tv.txt; sourceTree = "<group>"; };
+		D854C3FC2479BAAF00937B68 /* netflix_scifi_tv.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = netflix_scifi_tv.txt; sourceTree = "<group>"; };
+		D854C3FD2479BB2D00937B68 /* netflix_actionadventure_movie.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = netflix_actionadventure_movie.txt; sourceTree = "<group>"; };
+		D854C3FE2479BBD100937B68 /* netflix_comedy_movie.txt  */ = {isa = PBXFileReference; lastKnownFileType = text; path = "netflix_comedy_movie.txt "; sourceTree = "<group>"; };
+		D854C3FF2479BD1500937B68 /* netflix_horror_movie.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = netflix_horror_movie.txt; sourceTree = "<group>"; };
+		D854C4002479BD6900937B68 /* netflix_mystery_movie.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = netflix_mystery_movie.txt; sourceTree = "<group>"; };
+		D854C4012479BDA900937B68 /* netflix_scifi_movie.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = netflix_scifi_movie.txt; sourceTree = "<group>"; };
+		D854C4022479BF1300937B68 /* hulu_actionadventure_movie.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = hulu_actionadventure_movie.txt; sourceTree = "<group>"; };
+		D854C4032479BF9000937B68 /* hulu_comedy_movie.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = hulu_comedy_movie.txt; sourceTree = "<group>"; };
+		D854C4042479BFFC00937B68 /* hulu_horror_movie.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = hulu_horror_movie.txt; sourceTree = "<group>"; };
+		D854C4052479C04500937B68 /* hulu_scifi_movie.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = hulu_scifi_movie.txt; sourceTree = "<group>"; };
+		D854C4062479C09A00937B68 /* hulu_actionadventure_tv.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = hulu_actionadventure_tv.txt; sourceTree = "<group>"; };
+		D854C4072479C0F700937B68 /* hulu_comedy_tv.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = hulu_comedy_tv.txt; sourceTree = "<group>"; };
+		D854C4082479C12F00937B68 /* hulu_documentary_tv.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = hulu_documentary_tv.txt; sourceTree = "<group>"; };
+		D854C4092479C17300937B68 /* hulu_drama_tv.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = hulu_drama_tv.txt; sourceTree = "<group>"; };
+		D854C40A2479C1AE00937B68 /* hulu_mystery_tv.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = hulu_mystery_tv.txt; sourceTree = "<group>"; };
+		D854C40B2479C21C00937B68 /* hulu_scifi_tv.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = hulu_scifi_tv.txt; sourceTree = "<group>"; };
+		D854C40C2479D7CA00937B68 /* nature.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = nature.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D854C3E22479AA7C00937B68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D854C3DC2479AA7C00937B68 = {
+			isa = PBXGroup;
+			children = (
+				D854C3E72479AA7C00937B68 /* openHacks */,
+				D854C3E62479AA7C00937B68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D854C3E62479AA7C00937B68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D854C3E52479AA7C00937B68 /* openHacks */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D854C3E72479AA7C00937B68 /* openHacks */ = {
+			isa = PBXGroup;
+			children = (
+				D854C3F02479AA9500937B68 /* baking.cpp */,
+				D854C3F22479AA9500937B68 /* entertainment.cpp */,
+				D854C3F72479AFE800937B68 /* netflix_actionadventure_tv.txt */,
+				D854C3EF2479AA9500937B68 /* main.cpp */,
+				D854C3F82479B86800937B68 /* netflix_comedy_tv.txt */,
+				D854C3F92479B95400937B68 /* netflix_documentary_tv.txt */,
+				D854C3FA2479B9D500937B68 /* netflix_drama_tv.txt */,
+				D854C3FB2479BA6100937B68 /* netflix_mystery_tv.txt */,
+				D854C3FC2479BAAF00937B68 /* netflix_scifi_tv.txt */,
+				D854C3FD2479BB2D00937B68 /* netflix_actionadventure_movie.txt */,
+				D854C3FE2479BBD100937B68 /* netflix_comedy_movie.txt  */,
+				D854C3FF2479BD1500937B68 /* netflix_horror_movie.txt */,
+				D854C4012479BDA900937B68 /* netflix_scifi_movie.txt */,
+				D854C4022479BF1300937B68 /* hulu_actionadventure_movie.txt */,
+				D854C4032479BF9000937B68 /* hulu_comedy_movie.txt */,
+				D854C4002479BD6900937B68 /* netflix_mystery_movie.txt */,
+				D854C4042479BFFC00937B68 /* hulu_horror_movie.txt */,
+				D854C4052479C04500937B68 /* hulu_scifi_movie.txt */,
+				D854C4062479C09A00937B68 /* hulu_actionadventure_tv.txt */,
+				D854C4072479C0F700937B68 /* hulu_comedy_tv.txt */,
+				D854C4082479C12F00937B68 /* hulu_documentary_tv.txt */,
+				D854C4092479C17300937B68 /* hulu_drama_tv.txt */,
+				D854C40A2479C1AE00937B68 /* hulu_mystery_tv.txt */,
+				D854C40B2479C21C00937B68 /* hulu_scifi_tv.txt */,
+				D854C40C2479D7CA00937B68 /* nature.cpp */,
+				D854C3F12479AA9500937B68 /* quiz.cpp */,
+			);
+			path = openHacks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D854C3E42479AA7C00937B68 /* openHacks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D854C3EC2479AA7C00937B68 /* Build configuration list for PBXNativeTarget "openHacks" */;
+			buildPhases = (
+				D854C3E12479AA7C00937B68 /* Sources */,
+				D854C3E22479AA7C00937B68 /* Frameworks */,
+				D854C3E32479AA7C00937B68 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = openHacks;
+			productName = openHacks;
+			productReference = D854C3E52479AA7C00937B68 /* openHacks */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D854C3DD2479AA7C00937B68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Anastacia Gusikhin";
+				TargetAttributes = {
+					D854C3E42479AA7C00937B68 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = D854C3E02479AA7C00937B68 /* Build configuration list for PBXProject "openHacks" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D854C3DC2479AA7C00937B68;
+			productRefGroup = D854C3E62479AA7C00937B68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D854C3E42479AA7C00937B68 /* openHacks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D854C3E12479AA7C00937B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D854C40D2479D7CA00937B68 /* nature.cpp in Sources */,
+				D854C3F62479AA9500937B68 /* entertainment.cpp in Sources */,
+				D854C3F32479AA9500937B68 /* main.cpp in Sources */,
+				D854C3F42479AA9500937B68 /* baking.cpp in Sources */,
+				D854C3F52479AA9500937B68 /* quiz.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D854C3EA2479AA7C00937B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D854C3EB2479AA7C00937B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D854C3ED2479AA7C00937B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D854C3EE2479AA7C00937B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D854C3E02479AA7C00937B68 /* Build configuration list for PBXProject "openHacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D854C3EA2479AA7C00937B68 /* Debug */,
+				D854C3EB2479AA7C00937B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D854C3EC2479AA7C00937B68 /* Build configuration list for PBXNativeTarget "openHacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D854C3ED2479AA7C00937B68 /* Debug */,
+				D854C3EE2479AA7C00937B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D854C3DD2479AA7C00937B68 /* Project object */;
+}

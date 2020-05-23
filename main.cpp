@@ -10,12 +10,13 @@
 #include <cmath>
 #include <string>
 #include "baking.cpp"
+#include "quiz.cpp"
 using namespace std;
 
 
 int main() {
 
-    
+    make_quiz();
     
     
     
@@ -25,7 +26,7 @@ int main() {
         
         int numpeople;
         
-        cout << "You should bake during this quarintine! What do you want to make?";
+        cout << "You should bake during this quarantine! What do you want to make?";
         
         cout << endl << endl << "A) Cookies" << endl << "B) Cake" << endl << "C) Brownies" << endl;
         

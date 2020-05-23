@@ -10,3 +10,38 @@
 #include <cmath>
 #include <string>
 using namespace std;
+
+void make_quiz() {
+    
+}
+
+int entertainment_count() {
+    int num = 0;
+    char yes;
+    cout << "Do you like to watch TV? Enter A for yes and B for no" << endl;
+    cin >> yes;
+    if (yes == 'B' || yes == 'b') {
+        return 0;
+    }
+    num++;
+    return num;
+}
+
+int baking_count() {
+    int num = 0;
+    char yes;
+    cout << "Do you like to bake? Enter A for yes and B for no" << endl;
+    cin >> yes;
+    if (yes == 'B' || yes == 'b') {
+        return 0;
+    }
+    num++;
+    return num;
+}
+
+void pick_activity() {
+    if (baking_count() > entertainment_count()) {
+        
+    }
+    
+}
