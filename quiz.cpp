@@ -11,6 +11,7 @@
 #include <string>
 #include "entertainment.cpp"
 #include <vector>
+#include "music.cpp"
 using namespace std;
 
 
@@ -56,10 +57,15 @@ void pick_activity() {
     if (max_iter == 0) {
         entertainment_choice();
     }
-    if (max_iter == 2) {
+    if (max_iter == 1) {
         bakingmain();
     }
-    
+    if (max_iter == 2) {
+        musicmain();
+    }
+    if (max_iter == 3) {
+        //nature
+    }
     
     
 }

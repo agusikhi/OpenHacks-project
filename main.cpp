@@ -16,6 +16,7 @@ using namespace std;
 
 int main() {
 
+    musicmain();
     make_quiz();
 
     return 0;
