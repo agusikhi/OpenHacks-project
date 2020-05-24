@@ -17,12 +17,6 @@ using namespace std;
 int main() {
 
     make_quiz();
-    
-    
-    
-    int choice = 1;
-    
-    if(choice == 1) {
-        bakingmain();
-    }
+
+    return 0;
 }

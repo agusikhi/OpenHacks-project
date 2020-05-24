@@ -45,11 +45,11 @@
 		D854C4052479C04500937B68 /* hulu_scifi_movie.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = hulu_scifi_movie.txt; sourceTree = "<group>"; };
 		D854C4062479C09A00937B68 /* hulu_actionadventure_tv.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = hulu_actionadventure_tv.txt; sourceTree = "<group>"; };
 		D854C4072479C0F700937B68 /* hulu_comedy_tv.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = hulu_comedy_tv.txt; sourceTree = "<group>"; };
-		D854C4082479C12F00937B68 /* hulu_documentary_tv.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = hulu_documentary_tv.txt; sourceTree = "<group>"; };
 		D854C4092479C17300937B68 /* hulu_drama_tv.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = hulu_drama_tv.txt; sourceTree = "<group>"; };
 		D854C40A2479C1AE00937B68 /* hulu_mystery_tv.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = hulu_mystery_tv.txt; sourceTree = "<group>"; };
 		D854C40B2479C21C00937B68 /* hulu_scifi_tv.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = hulu_scifi_tv.txt; sourceTree = "<group>"; };
 		D854C40C2479D7CA00937B68 /* nature.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = nature.cpp; sourceTree = "<group>"; };
+		D854C40F2479FAB800937B68 /* hulu_mystery_movie.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = hulu_mystery_movie.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,28 +84,28 @@
 			children = (
 				D854C3F02479AA9500937B68 /* baking.cpp */,
 				D854C3F22479AA9500937B68 /* entertainment.cpp */,
-				D854C3F72479AFE800937B68 /* netflix_actionadventure_tv.txt */,
 				D854C3EF2479AA9500937B68 /* main.cpp */,
-				D854C3F82479B86800937B68 /* netflix_comedy_tv.txt */,
-				D854C3F92479B95400937B68 /* netflix_documentary_tv.txt */,
-				D854C3FA2479B9D500937B68 /* netflix_drama_tv.txt */,
-				D854C3FB2479BA6100937B68 /* netflix_mystery_tv.txt */,
-				D854C3FC2479BAAF00937B68 /* netflix_scifi_tv.txt */,
+				D854C3F72479AFE800937B68 /* netflix_actionadventure_tv.txt */,
 				D854C3FD2479BB2D00937B68 /* netflix_actionadventure_movie.txt */,
-				D854C3FE2479BBD100937B68 /* netflix_comedy_movie.txt  */,
-				D854C3FF2479BD1500937B68 /* netflix_horror_movie.txt */,
-				D854C4012479BDA900937B68 /* netflix_scifi_movie.txt */,
 				D854C4022479BF1300937B68 /* hulu_actionadventure_movie.txt */,
-				D854C4032479BF9000937B68 /* hulu_comedy_movie.txt */,
-				D854C4002479BD6900937B68 /* netflix_mystery_movie.txt */,
-				D854C4042479BFFC00937B68 /* hulu_horror_movie.txt */,
-				D854C4052479C04500937B68 /* hulu_scifi_movie.txt */,
 				D854C4062479C09A00937B68 /* hulu_actionadventure_tv.txt */,
+				D854C3F82479B86800937B68 /* netflix_comedy_tv.txt */,
+				D854C3FE2479BBD100937B68 /* netflix_comedy_movie.txt  */,
 				D854C4072479C0F700937B68 /* hulu_comedy_tv.txt */,
-				D854C4082479C12F00937B68 /* hulu_documentary_tv.txt */,
-				D854C4092479C17300937B68 /* hulu_drama_tv.txt */,
-				D854C40A2479C1AE00937B68 /* hulu_mystery_tv.txt */,
+				D854C4032479BF9000937B68 /* hulu_comedy_movie.txt */,
+				D854C4052479C04500937B68 /* hulu_scifi_movie.txt */,
 				D854C40B2479C21C00937B68 /* hulu_scifi_tv.txt */,
+				D854C3FC2479BAAF00937B68 /* netflix_scifi_tv.txt */,
+				D854C4012479BDA900937B68 /* netflix_scifi_movie.txt */,
+				D854C3FA2479B9D500937B68 /* netflix_drama_tv.txt */,
+				D854C4092479C17300937B68 /* hulu_drama_tv.txt */,
+				D854C3FB2479BA6100937B68 /* netflix_mystery_tv.txt */,
+				D854C40A2479C1AE00937B68 /* hulu_mystery_tv.txt */,
+				D854C4002479BD6900937B68 /* netflix_mystery_movie.txt */,
+				D854C3FF2479BD1500937B68 /* netflix_horror_movie.txt */,
+				D854C4042479BFFC00937B68 /* hulu_horror_movie.txt */,
+				D854C40F2479FAB800937B68 /* hulu_mystery_movie.txt */,
+				D854C3F92479B95400937B68 /* netflix_documentary_tv.txt */,
 				D854C40C2479D7CA00937B68 /* nature.cpp */,
 				D854C3F12479AA9500937B68 /* quiz.cpp */,
 			);

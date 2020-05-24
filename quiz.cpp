@@ -9,6 +9,8 @@
 #include <iostream>
 #include <cmath>
 #include <string>
+#include "entertainment.cpp"
+#include <vector>
 using namespace std;
 
 
@@ -37,9 +39,28 @@ int baking_count() {
 }
 
 void pick_activity() {
-    if (baking_count() > entertainment_count()) {
-        
+    vector<int> vals = {};
+    vals.push_back(entertainment_count());
+    vals.push_back(baking_count());
+    
+    //find max
+    int max = 0;
+    int max_iter = 0;
+    for (int i = 0; i < vals.size(); i++) {
+        if (vals[i] > max) {
+            max = vals[i];
+            max_iter = i;
+        }
     }
+    
+    if (max_iter == 0) {
+        entertainment_choice();
+    }
+    if (max_iter == 2) {
+        bakingmain();
+    }
+    
+    
     
 }
 
