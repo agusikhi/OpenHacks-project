@@ -40,7 +40,7 @@ public:
             //file >> x;
             getline (file, x);
             cout << "Your recommended title is " << x <<
-            ". Would you like another recommendation?" << endl;
+            ". " << endl <<  "Would you like another recommendation?" << endl;
             cout << "Enter A for yes. Enter B for no" << endl;
             char response;
             cin >> response;

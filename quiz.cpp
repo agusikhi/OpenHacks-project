@@ -56,7 +56,7 @@ void pick_activity() {
     if (max_iter == 0) {
         entertainment_choice();
     }
-    if (max_iter == 2) {
+    if (max_iter == 1) {
         bakingmain();
     }
     
