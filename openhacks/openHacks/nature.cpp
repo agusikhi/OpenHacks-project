@@ -46,3 +46,20 @@ public:
 private:
     bool active;
 };
+
+void nature_main() {
+    cout << "You should do a nature activity!" << endl;
+    cout << "Do you like to be active? Enter A for yes and B for no" << endl;
+    char x;
+    cin >> x;
+    if (x == 'B' || x == 'b') {
+        Nature suggest(false);
+    }
+    else if (x == 'A' || x == 'b') {
+        Nature suggest(true);
+    }
+    else {
+        cout << "Invalid input" << endl;
+    }
+    suggest.suggest_activity();
+}
