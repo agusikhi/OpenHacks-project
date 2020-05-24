@@ -16,6 +16,7 @@ using namespace std;
 
 class Nature {
 public:
+    Nature() : active(true) {}
     Nature(bool active_in) : active(active_in) {}
     
     void suggest_activity() {
@@ -52,14 +53,16 @@ void nature_main() {
     cout << "Do you like to be active? Enter A for yes and B for no" << endl;
     char x;
     cin >> x;
+    bool activ = false;
     if (x == 'B' || x == 'b') {
-        Nature suggest(false);
+        activ = false;
     }
     else if (x == 'A' || x == 'b') {
-        Nature suggest(true);
+        activ = true;
     }
     else {
         cout << "Invalid input" << endl;
     }
+    Nature suggest(activ);
     suggest.suggest_activity();
 }

@@ -12,6 +12,7 @@
 #include "entertainment.cpp"
 #include <vector>
 #include "music.cpp"
+#include "nature.cpp"
 using namespace std;
 
 void officialnum(int num, int yes) {
@@ -150,7 +151,7 @@ void pick_activity() {
         musicmain();
     }
     if (max_iter == 3) {
-        //nature
+        nature_main();
     }
     
 }
